@@ -32,6 +32,8 @@ body{
     position: absolute;
     width: 80px;
     height: 80px;
+    left:0;
+    top:0;
     
     background-color: #27ae60;
     border-radius: 50%;
@@ -50,6 +52,7 @@ body{
     
     background-color: #7f8c8d;
 }
+
 
 .arrow{
     border-radius: 5px;
@@ -70,5 +73,9 @@ body{
 }
 
 .arrow:active{
-    background-color: #7f8c8d
+    background-color: #7f8c8d;
+}
+
+.subHeader {
+    color: yellow;
 }
